@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 
 <head>
     <meta charset="UTF-8">
@@ -13,7 +13,14 @@
     <!-- <div class="container"> -->
     <!-- prata om det är fel att ta en STOR bild och minska den. Upphovsrätt-->
     <h1>En recention av läromedlet Webbutveckling 1 av Paul Belfrage</h1>
-    <img src="images/book-cover.webp" alt="Bokomslag till läromedlet Webbutveckling 1">
+    <picture>
+        <source type="image/avif" sizes="100vw" srcset="images/book-cover-618.avif 618w, 
+        images/book-cover-309.avif 309w">
+        <img alt="Bokomslag till läromedlet Webbutveckling 1" src="images/book-cover.webp" srcset="images/book-cover-618.webp 618w, 
+        images/book-cover-309.webp 309w" sizes="100vw" loading="lazy" decoding="async" height="726" width="618"
+            style="content-visibility: auto; max-width: 100%; height: auto;">
+    </picture>
+    <!--   <img src="images/book-cover.webp" alt="Bokomslag till läromedlet Webbutveckling 1"> -->
     <a href="https://www.goodreads.com/en/book/show/15814588">More information on goodreads</a>
 
     <p>Recension: Läromedel i Webbutveckling 1 - En perfekt startpunkt för framtidens webbutvecklare</p>
@@ -47,11 +54,7 @@
 
 
 
-    <!--  </div> -->
-    <!--     ÖVERKURS -->
-    <!--     <iframe width="560" height="315" src="https://www.youtube.com/embed/iA217pYnOSQ" title="YouTube video player"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen></iframe> -->
+
 </body>
 
 </html>
