@@ -1,0 +1,33 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  background-color: palegreen;
+  color: #222;
+  margin: 2em 5em;
+  /* margin: 5vh 5vw; */
+}
+
+/* .container {
+  display: grid;
+  place-items: center;
+  margin: 5vh 5vw;
+} */
+
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: yellow;
+  padding: 10px;
+  border: 7px double green;
+  border-radius: 25px;
+  margin-bottom: 1em;
+}
+
+img {
+  display: block;
+}
+
+p {
+  font-size: 0.9rem;
+  max-width: 80ch;
+}
