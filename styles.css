@@ -27,7 +27,11 @@ img {
   display: block;
 }
 
-p {
+/* p {
   font-size: 0.9rem;
   max-width: 80ch;
+} */
+
+p {
+  width: 1000px;
 }
